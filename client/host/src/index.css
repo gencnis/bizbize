@@ -1,0 +1,280 @@
+/* Biz Bize design system */
+:root {
+  --brand: #E2B567;
+  --purple: #8E5A7B;
+  --sand: #F6E9D4;
+  --green: #7F9A6D;
+  --red: #C84C3A;
+  --brown: #3B2A21;
+  --card: #FFF7EA;
+  --brand-hover: #D9A955;
+  --font-heading: 'Baloo 2', sans-serif;
+  --font-body: 'Nunito', sans-serif;
+}
+
+html { -webkit-font-smoothing: antialiased; }
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-weight: 400;
+  background: var(--sand);
+  color: var(--brown);
+  min-height: 100vh;
+}
+
+#root { min-height: 100vh; padding: 1rem; }
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  color: var(--purple);
+  margin-top: 0;
+}
+
+p, input, button, label, span {
+  font-family: var(--font-body);
+}
+
+.screen { max-width: 640px; margin: 0 auto; }
+.room-header { margin-bottom: 1rem; font-size: 0.9rem; color: var(--brown); }
+.view h1, .view h2 { margin-top: 0; }
+
+.card {
+  background: var(--card);
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(59, 42, 33, 0.1);
+  padding: 1rem;
+}
+
+.player-list, .roles-list { list-style: none; padding: 0; }
+.player-list li, .roles-list li { padding: 0.25rem 0; color: var(--brown); }
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-family: var(--font-body);
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 999px;
+  background: var(--brand);
+  color: var(--brown);
+  transition: background 0.2s;
+}
+button:hover:not(:disabled) { background: var(--brand-hover); }
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.btn-secondary { background: var(--green); color: white; }
+.btn-danger { background: var(--red); color: white; }
+
+.hint { color: var(--brown); opacity: 0.85; font-size: 0.9rem; }
+.error { color: var(--red); }
+.connected { color: var(--green); }
+.link { color: var(--purple); }
+
+.bar-chart { margin: 1rem 0; }
+.bar-row { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+.bar-label { min-width: 100px; color: var(--brown); }
+.bar-track { flex: 1; height: 24px; background: rgba(59, 42, 33, 0.12); border-radius: 8px; overflow: hidden; }
+.bar-fill { height: 100%; background: var(--green); border-radius: 8px; transition: width 0.3s ease; }
+.bar-value { width: 2rem; text-align: right; color: var(--brown); }
+.leaderboard-list { list-style: none; padding: 0; }
+.leaderboard-list li { padding: 0.35rem 0; color: var(--brown); }
+.rank { margin-right: 0.25rem; }
+.winner { font-size: 1.2rem; color: var(--green); font-weight: 700; }
+.role-label { font-size: 1.1rem; margin: 0.5rem 0; color: var(--purple); font-family: var(--font-heading); }
+.timer { font-size: 1.5rem; font-weight: 700; color: var(--purple); }
+
+.info-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  border: 1px solid var(--purple);
+  font-size: 0.7rem;
+  color: var(--purple);
+}
+.info-badge-spacer { margin-left: 0.35rem; }
+.emoji-spacer { margin-right: 0.5rem; }
+
+/* Between rounds */
+.between-rounds {
+  max-width: 24rem;
+  margin: 0 auto;
+  padding: 1rem 0.5rem;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.between-rounds-label {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  color: #8E5A7B;
+  margin: 0 0 1rem 0;
+}
+
+.between-rounds-hero {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.between-rounds-img {
+  width: 180px;
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.between-rounds-bubble {
+  padding: 1rem 1.25rem;
+  background: #FFF7EA;
+  border: 2px solid #E2B567;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(59, 42, 33, 0.1);
+  max-width: 100%;
+}
+
+.between-rounds-speech {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--brown);
+}
+
+.between-rounds-progress-wrap {
+  width: 100%;
+  height: 6px;
+  background: rgba(59, 42, 33, 0.12);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 1.5rem;
+}
+
+.between-rounds-progress-bar {
+  height: 100%;
+  background: #E2B567;
+  border-radius: 999px;
+  transition: width 0.05s linear;
+}
+
+/* Podium */
+.podium-view {
+  max-width: 28rem;
+  margin: 0 auto;
+  padding: 1rem 0.5rem;
+  min-height: 60vh;
+}
+
+.podium-character {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.75rem;
+}
+
+.podium-bubble {
+  padding: 0.75rem 1rem;
+  background: #FFF7EA;
+  border: 2px solid #E2B567;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 12px rgba(59, 42, 33, 0.1);
+}
+
+.podium-speech {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--brown);
+}
+
+.podium-stand {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.podium-card {
+  flex: 1;
+  max-width: 120px;
+  padding: 1rem 0.5rem;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(59, 42, 33, 0.1);
+  background: var(--card);
+}
+
+.podium-card--first.podium-card--center {
+  border: 3px solid #E2B567;
+  min-height: 140px;
+  order: 2;
+}
+
+.podium-card--second.podium-card--left {
+  border: 3px solid #9E9E9E;
+  min-height: 110px;
+  order: 1;
+}
+
+.podium-card--third.podium-card--right {
+  border: 3px solid #CD7F32;
+  min-height: 110px;
+  order: 3;
+}
+
+.podium-crown {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.podium-card-name {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: #3B2A21;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.podium-card-score {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: #8E5A7B;
+  margin-bottom: 0.5rem;
+}
+
+.podium-card-trait,
+.podium-card-subtext {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #8E5A7B;
+  margin: 0.15rem 0;
+}
+
+/* Final screen traits */
+.final-leaderboard { list-style: none; padding: 0; }
+.final-leaderboard-item {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(59, 42, 33, 0.1);
+}
+.final-traits {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #8E5A7B;
+  margin-top: 0.2rem;
+}

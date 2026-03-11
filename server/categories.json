@@ -1,0 +1,184 @@
+{
+  "version": "1.0",
+  "categories": [
+    {
+      "id": "arka_sokaklar",
+      "category": "Arka Sokaklar Karakterleri",
+      "emoji": "🚔",
+      "description": "Suç, kovalamaca ve sert ama iyi niyetli polis karakterleri.",
+      "min_players": 2,
+      "max_players": 10,
+      "roles": [
+        { "role": "Hüsnü Çoban", "description": "Ay yavrum adam polis ama evde nüfus sayımı gibi çocuk var. Suçlu kovalamaktan çok çocuk büyütüyor.", "traits": ["aile babası", "çalışkan", "sürekli dertli"] },
+        { "role": "Garip Kont", "description": "Bu ekipte en düzgün karakter bu köpek. Mesut'un sadık köpeği, vallahi bazı insanlardan daha akıllı.", "traits": ["sadık", "zeki", "sessiz kahraman"] },
+        { "role": "Rıza Baba", "description": "Mahallenin akil insanı gibi dolaşıyor. Suçluya bile nasihat verip adamı utandırır.", "traits": ["otoriter", "bilge", "baba figürü"] },
+        { "role": "Mesut Komiser", "description": "Siniri burnunda. Kapıyı çalacağına tekmeyle açar.", "traits": ["agresif", "cesur", "gözü kara"] },
+        { "role": "Ali", "description": "Genç polis ama hayatı dramdan ibaret oldu yavrum.", "traits": ["romantik", "duygusal", "idealist"] },
+        { "role": "Aylin", "description": "Ekipte mantıklı kalan nadir insanlardan biri.", "traits": ["mantıklı", "güçlü", "sabırlı"] },
+        { "role": "Murat", "description": "Hevesli ama sürekli başını belaya sokuyor.", "traits": ["aceleci", "iyi niyetli", "sakarlığa yatkın"] },
+        { "role": "Zeynep", "description": "Polis ama herkes derdini buna anlatıyor.", "traits": ["empatik", "sabırlı", "duygusal"] },
+        { "role": "Suat", "description": "Hüsnü'nün evinde huzur bir gün var bir gün yok.", "traits": ["duygusal", "gururlu", "hassas"] },
+        { "role": "Nazike", "description": "Mahallenin yürüyen dedikodu merkezi.", "traits": ["meraklı", "konuşkan", "dedikoducu"] }
+      ]
+    },
+    {
+      "id": "ask_i_memnu",
+      "category": "Aşk-ı Memnu Karakterleri",
+      "emoji": "🏛️",
+      "description": "Zengin hayatın içinde dönen aşk, entrika ve dram.",
+      "min_players": 2,
+      "max_players": 10,
+      "roles": [
+        { "role": "Bihter", "description": "Yalıda yaşıyor ama gönlü sürekli yanlış yerde.", "traits": ["tutkulu", "gururlu", "dram sever"] },
+        { "role": "Behlül", "description": "Gördüğü her kıza gönül veren çapkın.", "traits": ["çapkın", "rahat", "sorumsuz"] },
+        { "role": "Adnan Ziyagil", "description": "Evinde dönen entrikaları en son öğrenen zengin amca.", "traits": ["saf", "saygın", "iyi niyetli"] },
+        { "role": "Matmazel", "description": "Yalıda sessizce dolaşır ama her şeyi görür.", "traits": ["gözlemci", "disiplinli", "ketum"] },
+        { "role": "Firdevs Yöreoğlu", "description": "Kızının hayatını bile sosyete planı gibi gören anne.", "traits": ["hırslı", "manipülatif", "gösterişçi"] },
+        { "role": "Beşir", "description": "Her şeyi bilir ama konuşamaz.", "traits": ["sadık", "fedakar", "sessiz"] },
+        { "role": "Cemile", "description": "Yalıdaki dramın ortasında en mantıklı kalanlardan.", "traits": ["çalışkan", "sakin", "sağduyulu"] },
+        { "role": "Nihal", "description": "Duygusal ve kırılgan yalı kızı.", "traits": ["hassas", "romantik", "naif"] },
+        { "role": "Bülent", "description": "Yalıdaki karmaşadan habersiz büyüyen tek çocuk.", "traits": ["saf", "neşeli", "masum"] }
+      ]
+    },
+    {
+      "id": "yaprak_dokumu",
+      "category": "Yaprak Dökümü Karakterleri",
+      "emoji": "🍂",
+      "description": "Bir ailenin zamanla dağılan ve zorlaşan hikayesi.",
+      "min_players": 2,
+      "max_players": 10,
+      "roles": [
+        { "role": "Ali Rıza Bey", "description": "Ahlak diye diye ömrünü tüketen gururlu baba.", "traits": ["gururlu", "gelenekçi", "katı"] },
+        { "role": "Ferhunde", "description": "Eve gelin diye gelip aileyi entrika dizisine çeviren kadın.", "traits": ["kurnaz", "manipülatif", "hırslı"] },
+        { "role": "Hayriye", "description": "Hem söylenip hem ağlayan klasik anne.", "traits": ["kaygılı", "duygusal", "koruyucu"] },
+        { "role": "Şevket", "description": "Yanlış karar alma konusunda ustalaşmış oğul.", "traits": ["kararsız", "zayıf iradeli", "talihsiz"] },
+        { "role": "Oğuz", "description": "Girdiği her ilişkide ortalığı karıştıran adam.", "traits": ["tehlikeli", "çekici", "güvenilmez"] },
+        { "role": "Necla", "description": "Ablası Leyla'nın kocasıyla kaçıp aileyi karıştıran kız.", "traits": ["asi", "tutkulu", "risk alan"] },
+        { "role": "Leyla", "description": "Kocasını kardeşine kaptıran talihsiz kız.", "traits": ["romantik", "kırılgan", "saf"] },
+        { "role": "Cevriye", "description": "Eve girince herkese laf yetiştiren sivri dilli kaynana.", "traits": ["sivri dilli", "baskın", "kavgacı"] },
+        { "role": "Fikret", "description": "Ailenin yükünü en çok taşıyan güçlü abla.", "traits": ["güçlü", "sorumlu", "fedakar"] },
+        { "role": "Tahsin", "description": "Karısını aldatan, sonra bu tuhaf aileye karışınca iyice dağılan adam.", "traits": ["zayıf iradeli", "çelişkili", "suça meyilli"] }
+      ]
+    },
+    {
+      "id": "tatli_cesitleri",
+      "category": "Tatlı Çeşitleri",
+      "emoji": "🍮",
+      "description": "Tatlılar da karakter gibidir. Kimisi gösterişli, kimisi sade, kimisi de fazla çekici.",
+      "min_players": 2,
+      "max_players": 10,
+      "roles": [
+        { "role": "Bisküvili Pasta", "description": "Ay bu var ya tam pratik gelin tatlısı. Misafir gelecek diye panikleyince bisküviyi süte batırıp 'pasta yaptım' diye ortaya koyarlar, kimse de ses çıkarmaz.", "traits": ["pratik", "mütevazı", "biraz tembel"] },
+        { "role": "Trileçe", "description": "Bir ara herkesin dilindeydi. Mahallede yeni açılan kafeye giden herkes fotoğrafını koyuyordu. Şimdi de hala havalıymış gibi davranıyor.", "traits": ["popüler", "gösterişi seven", "trend peşinde"] },
+        { "role": "Yaş Pasta", "description": "Doğum günü olunca ortama giren o şovcu akraba gibi. Mumlar, süsler, herkes etrafında. Ama bazen fazla şekerli olur, insanı yorar.", "traits": ["dikkat çekici", "sosyal", "dramatik"] },
+        { "role": "Tiramisu", "description": "Adı yabancı diye herkes saygı duyuyor. Aslında kahve seven o entel arkadaş gibi biraz havalı takılıyor.", "traits": ["entel", "cool", "mesafeli"] },
+        { "role": "Brownie", "description": "Bu var ya tam bağımlılık yapan tip. Bir kere başlayınca duramazsın, sohbeti de tatlıdır ama biraz ağırdır.", "traits": ["yoğun", "çekici", "baştan çıkarıcı"] },
+        { "role": "Sütlaç", "description": "Mahallenin iyi kalpli teyzesi gibi. Kimseyle kavga etmez, herkes sever. Ama biraz da fazla sade.", "traits": ["sakin", "iyi niyetli", "güvenilir"] },
+        { "role": "Baklava", "description": "Ay bunun olduğu yerde kavga çıkar. Tepsinin son dilimi için akrabalık bozulur. Zengin, gösterişli ve biraz da kibirli.", "traits": ["gösterişli", "iddialı", "rekabetçi"] },
+        { "role": "Tulumba", "description": "Mahallenin yaramaz çocuğu gibi. Yağlıdır, şerbetlidir, ama herkes yine de seviyor.", "traits": ["enerjik", "biraz kaba", "eğlenceli"] },
+        { "role": "Künefe", "description": "Sıcakken çok cazibeli. Ama ağırdır, fazla kaçarsa insanı pişman eder.", "traits": ["tutkulu", "yoğun", "dramatik"] },
+        { "role": "Revani", "description": "Ay yavrum revani kötü değil ama kimse de onun için kavga etmez. Masada durur durur en son biri yer.", "traits": ["sakin", "biraz sıkıcı", "unutulabilir"] }
+      ]
+    },
+    {
+      "id": "akrabalar",
+      "category": "Akrabalar",
+      "emoji": "👨‍👩‍👧‍👦",
+      "description": "Akrabalar aile demektir ama aynı zamanda küçük dramaların ve dedikoduların da kaynağıdır.",
+      "min_players": 2,
+      "max_players": 10,
+      "roles": [
+        { "role": "Kıskanç Elti", "description": "Ay bu var ya insanın mutluluğunu bile çekemez. Sen yeni perde alsan ertesi gün surat asar.", "traits": ["kıskanç", "rekabetçi", "laf sokan"] },
+        { "role": "Dolandırıcı Amca", "description": "Ailede sürekli yeni 'iş fikri' olan o amca. Bir gün kripto, bir gün arsa, bir gün tavuk çiftliği… ama para hep kayıp.", "traits": ["kurnaz", "güvenilmez", "fırsatçı"] },
+        { "role": "Kumarbaz Dayı", "description": "Düğünde bile köşede okey atar. 'Bu son el' diyerek sabaha kadar oynayan tip.", "traits": ["risk seven", "rahat", "sorumsuz"] },
+        { "role": "Patavatsız Enişte", "description": "Aklına geleni filtresiz söyleyen o adam. Aile yemeğinde bir cümle eder, bütün masa susar.", "traits": ["patavatsız", "umursamaz", "gürültücü"] },
+        { "role": "Büyücü Hala", "description": "Her şeye nazar gözüyle bakan o mistik hala. Birisi hasta olsa hemen tuz yakar, kurşun döktürür.", "traits": ["batıl inançlı", "gizemli", "takıntılı"] },
+        { "role": "Fitne Fesat Yenge", "description": "Ailede drama başlatan kişi. İki laf eder, kuzenler üç yıl konuşmaz.", "traits": ["manipülatif", "dedikoducu", "kışkırtıcı"] },
+        { "role": "Gariban Anneanne", "description": "Ay yavrum herkese dua eden, cebindeki son parayı bile torununa veren o iyi kalpli kadın.", "traits": ["fedakar", "merhametli", "duygusal"] },
+        { "role": "Dediğim Dedik Kaynana", "description": "Bu kadın var ya evde anayasa gibi. Sözü tartışılmaz, gelin konuşsa bile son sözü yine o söyler.", "traits": ["otoriter", "kontrolcü", "inatçı"] },
+        { "role": "Ergen Kuzen", "description": "Aile toplantısında kulaklıkla oturur. Kimseyle konuşmaz ama WiFi şifresini ilk o sorar.", "traits": ["umursamaz", "asi", "içine kapanık"] },
+        { "role": "İlk Erkek Torun", "description": "Ay bu çocuk doğduğunda sülale bayram etti. Sanki tahtın varisi doğmuş gibi herkes başında.", "traits": ["şımartılmış", "özgüvenli", "ilgi bağımlısı"] }
+      ]
+    },
+    {
+      "id": "sosyal_medya",
+      "category": "Sosyal Medya",
+      "emoji": "📱",
+      "description": "Sosyal medya mahalle dedikodusunun internet hali gibi. Herkes bir şey gösterir, söyler ya da tartışır.",
+      "min_players": 2,
+      "max_players": 10,
+      "roles": [
+        { "role": "Facebook", "description": "Ay burası tam eski mahalle kahvesi gibi. Herkes birbirini bulmuş ama çoğu insan 2012'de kalmış gibi davranıyor.", "traits": ["nostaljik", "konuşkan", "biraz eski kafalı"] },
+        { "role": "Pinterest", "description": "Bu var ya hayal kuran insanların yeri. Herkes ev dekorasyonu, tarif, düğün planı falan kaydediyor ama yarısını kimse yapmıyor.", "traits": ["yaratıcı", "hayalperest", "düzenli"] },
+        { "role": "YouTube", "description": "Mahallenin anlatmayı seven abisi gibi. Her konuda bir şey anlatır, bazen çok faydalı bazen de boş boş konuşur.", "traits": ["konuşkan", "öğretici", "sabırlı"] },
+        { "role": "Trendyol", "description": "Ay bu tam alışveriş bağımlısı arkadaş gibi. 'İndirim var' diye insanı gece 2'de bile dürter.", "traits": ["fırsatçı", "hızlı", "para harcamayı seven"] },
+        { "role": "TikTok", "description": "Mahallenin hiperaktif çocuğu gibi. Her gün yeni bir trend, yeni bir dans, yeni bir saçmalık.", "traits": ["enerjik", "dikkat çekici", "sabırsız"] },
+        { "role": "Sahibinden", "description": "Bu var ya ikinci el araba satan o pazarlıkçı dayı gibi. Her şey var ama fiyatı görünce insan düşünmeden edemiyor.", "traits": ["pazarlıkçı", "kurnaz", "fırsat kollayan"] },
+        { "role": "Gmail", "description": "Sessiz çalışan memur gibi. Gürültüsü yok ama herkes işi için buna muhtaç.", "traits": ["güvenilir", "düzenli", "ciddi"] },
+        { "role": "Instagram", "description": "Mahallenin en bakımlı kızı gibi. Fotoğraflar güzel, hayat mükemmel gözüküyor ama arkasını kimse bilmiyor.", "traits": ["gösterişçi", "sosyal", "estetik meraklısı"] },
+        { "role": "LinkedIn", "description": "Takım elbiseli akraba gibi. Sürekli başarı hikayesi anlatır, insanı biraz da gerer.", "traits": ["hırslı", "ciddi", "kariyer odaklı"] },
+        { "role": "X (Twitter)", "description": "Mahallenin tartışmacı amcası gibi. Her konuda fikri var, bazen doğru bazen sadece kavga çıkarıyor.", "traits": ["sivri dilli", "tartışmacı", "hızlı tepki veren"] }
+      ]
+    },
+    {
+      "id": "hayvanlar",
+      "category": "Hayvanlar",
+      "emoji": "🐾",
+      "description": "Hayvanların da insanlara benzeyen huyları vardır: sadık olanı, kurnaz olanı, ürkek olanı.",
+      "min_players": 2,
+      "max_players": 10,
+      "roles": [
+        { "role": "Kedi", "description": "Ay bu kedi var ya tam o kendi bildiğini yapan insan tipi. Seni sever ama canı isterse, yoksa yüzüne bile bakmaz.", "traits": ["bağımsız", "gururlu", "mesafeli"] },
+        { "role": "Köpek", "description": "Mahallenin en sadık arkadaşı gibi. Sana bağlıysa dünyayı yakar ama kalbi de yumuşaktır.", "traits": ["sadık", "enerjik", "korumacı"] },
+        { "role": "Yunus", "description": "Denizin neşeli çocuğu gibi. Sürekli oyun peşinde ama akıllıdır da.", "traits": ["zeki", "oyuncu", "sosyal"] },
+        { "role": "Tavşan", "description": "Ay bu var ya panik yapan kuzen gibi. En ufak seste irkilir, kaçar.", "traits": ["ürkek", "hızlı", "hassas"] },
+        { "role": "Zürafa", "description": "Uzun boylu ama sakin o arkadaş gibi. Her şeyi yukarıdan izler ama kavga sevmez.", "traits": ["sakin", "nazik", "mesafeli"] },
+        { "role": "Goril", "description": "Dışarıdan bakınca sert ama aslında duygusal o iri abi gibi. Sinirlenirse ortalık dağılır.", "traits": ["güçlü", "koruyucu", "duygusal"] },
+        { "role": "Yılan", "description": "Ay yavrum bunun bakışı bile insanı tedirgin eder. Sessizce gelir, sonra bir anda hamle yapar.", "traits": ["sinsi", "sabırlı", "hesapçı"] },
+        { "role": "Koala", "description": "Mahallenin tembel ama sevimli insanı gibi. Gün boyu uyur ama herkes yine de sever.", "traits": ["rahat", "uyuşuk", "sevimli"] },
+        { "role": "Bukalemun", "description": "Ortama göre renk değiştiren o iki yüzlü tip gibi. Kimin yanındaysa onun tarafında.", "traits": ["uyum sağlayan", "fırsatçı", "değişken"] },
+        { "role": "Tilki", "description": "Ay bu var ya aklı çok çalışan tip. Kimse fark etmeden işi kendi lehine çevirir.", "traits": ["kurnaz", "zeki", "stratejik"] }
+      ]
+    },
+    {
+      "id": "bitkiler",
+      "category": "Bitkiler",
+      "emoji": "🌿",
+      "description": "Bitkiler de insanlar gibidir. Kimisi dikenli ama güçlü, kimisi saf, kimisi de birine tutunmadan yaşayamaz.",
+      "min_players": 2,
+      "max_players": 10,
+      "roles": [
+        { "role": "Kaktüs", "description": "Ay bu var ya dışı dikenli ama kendi halinde yaşayan o insan tipi. Kimseye bulaşmaz ama dokunursan da canını yakar.", "traits": ["dayanıklı", "mesafeli", "savunmacı"] },
+        { "role": "Papatya", "description": "Mahallenin iyi kalpli saf kızı gibi. Herkese gülümser, kimseyle kavga etmez.", "traits": ["masum", "samimi", "iyimser"] },
+        { "role": "Gül", "description": "Ay bu tam dramatik tip. Çok güzel ama dikenleri var, yaklaşırken dikkat edeceksin.", "traits": ["çekici", "tutkulu", "gururlu"] },
+        { "role": "Yosun", "description": "Kendi halinde yaşayan o sessiz insan gibi. Gürültü sevmez, kenarda köşede büyür.", "traits": ["sessiz", "uyumlu", "mütevazı"] },
+        { "role": "Karahindiba", "description": "Ay bu var ya rüzgar nereye götürürse oraya giden insan gibi. Bir yerde durmaz.", "traits": ["özgür ruhlu", "dağınık", "hayalperest"] },
+        { "role": "Sarmaşık", "description": "Bazı insanlar vardır ya sürekli birine tutunur. İşte sarmaşık tam öyle.", "traits": ["bağlı", "ısrarcı", "sahiplenici"] },
+        { "role": "Isırgan Otu", "description": "Dışarıdan bakınca sıradan ama dokununca pişman olursun. Dilini tutamayan o insan gibi.", "traits": ["sert", "savunmacı", "patavatsız"] },
+        { "role": "Aloe Vera", "description": "Mahallenin şifacı teyzesi gibi. Birinin başı ağrısa hemen çözüm bulur.", "traits": ["yardımsever", "sakin", "güvenilir"] },
+        { "role": "Lavanta", "description": "Ay bunun yanında insanın siniri bile yatışır. Sakin, huzurlu o arkadaş gibi.", "traits": ["dingin", "nazik", "huzurlu"] },
+        { "role": "Nane", "description": "Mahallenin enerjik insanı gibi. Her şeye karışır ama ortamı da canlandırır.", "traits": ["enerjik", "taze ruhlu", "hareketli"] }
+      ]
+    },
+    {
+      "id": "is_yeri",
+      "category": "İş Yerindeki Tipler",
+      "emoji": "💼",
+      "description": "Ay yavrum her ofiste aynı tipler olur. Biri sigara molasından çıkmaz, biri patronun gözüne girmeye çalışır, biri de toplantı yapmadan iş yapamaz. Gün boyu bilgisayar başında çalışıyorlar ama asıl hikaye bu insanların arasında döner.",
+      "min_players": 2,
+      "max_players": 10,
+      "roles": [
+        { "role": "5 Dakikada Bir Sigaraya Çıkan", "description": "Ay bu var ya ofiste çalışmaktan çok balkonu görür. 'Bir sigara içip geliyorum' diye gider, yarım saat sonra döner.", "traits": ["bahane bulan", "rahatına düşkün", "sosyal"] },
+        { "role": "Patron Yalakası", "description": "Patronun söylediği her şeyi altın kural gibi anlatır. Patron güldü mü o daha çok güler.", "traits": ["çıkarcı", "uyum sağlayan", "fırsatçı"] },
+        { "role": "'Biz Bir Aileyiz' Patron", "description": "Ay konuşurken hep 'biz bir aileyiz' der ama maaş konuşulunca bir anda patron olur.", "traits": ["manipülatif", "otoriter", "ikna etmeye çalışan"] },
+        { "role": "Her Mailde Herkesi CC'ye Ekleyen", "description": "Bir mail atar, şirkette kim varsa görür. Sanki mahkeme tutanağı yazıyor gibi davranır.", "traits": ["kontrolcü", "titiz", "kendini garantiye alan"] },
+        { "role": "Toplantı Olmadan İş Yapamayan", "description": "İki cümlelik işi bile toplantıya çevirir. Yarım gün konuşulur, sonunda yine aynı yere gelinir.", "traits": ["bürokratik", "konuşmayı seven", "oyalayan"] },
+        { "role": "'Bunu Dün İstiyordum' Müdür", "description": "İşi verir ama son teslim tarihi hep geçmiş olur. Her şey acil, her şey hemen.", "traits": ["baskıcı", "sabırsız", "talepkar"] },
+        { "role": "Kamerayı Asla Açmayan Uzaktan Çalışan", "description": "Toplantıda sesi var ama yüzü yok. Kamerası hep 'bozuk' ya da 'internet yavaş'.", "traits": ["gizemli", "rahat", "mesafeli"] },
+        { "role": "Excel Sihirbazı", "description": "Ofiste herkesin çözemediği tabloyu iki tuşla çözer. Ama kimse tam olarak ne yaptığını anlamaz.", "traits": ["zeki", "detaycı", "sakin"] },
+        { "role": "'Bir Kahve İçelim' Diyerek Dedikodu Toplayan", "description": "Kahve bahanesiyle bütün ofis haberlerini öğrenir. Sonra o haberler bir şekilde herkese yayılır.", "traits": ["meraklı", "konuşkan", "dedikoducu"] },
+        { "role": "Mesai Bitince Bir Anda Kaybolan", "description": "Saat 18:00 oldu mu bilgisayar kapanır, adam ortadan yok olur. Kimse nereye gittiğini anlamaz.", "traits": ["sınır koyan", "pratik", "özgürlüğüne düşkün"] }
+      ]
+    }
+  ]
+}
