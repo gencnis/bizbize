@@ -2,10 +2,6 @@
   "name": "bizbize",
   "version": "1.0.0",
   "private": true,
-  "workspaces": [
-    "server",
-    "client/*"
-  ],
   "scripts": {
     "dev:server": "node server/index.js",
     "dev:host": "npm run dev --prefix client/host",
