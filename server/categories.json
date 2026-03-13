@@ -179,6 +179,126 @@
         { "role": "'Bir Kahve İçelim' Diyerek Dedikodu Toplayan", "description": "Kahve bahanesiyle bütün ofis haberlerini öğrenir. Sonra o haberler bir şekilde herkese yayılır.", "traits": ["meraklı", "konuşkan", "dedikoducu"] },
         { "role": "Mesai Bitince Bir Anda Kaybolan", "description": "Saat 18:00 oldu mu bilgisayar kapanır, adam ortadan yok olur. Kimse nereye gittiğini anlamaz.", "traits": ["sınır koyan", "pratik", "özgürlüğüne düşkün"] }
       ]
+    },
+    {
+      "id": "serdar_ortac_sarkilari",
+      "category": "Serdar Ortaç Şarkıları",
+      "emoji": "🎤",
+      "description": "Türk popunun en akılda kalan, en oynatan Serdar Ortaç hitleri. Çalınca herkesin diline dolanan şarkılar.",
+      "min_players": 2,
+      "max_players": 10,
+      "roles": [
+        { "role": "Karabiberim", "description": "Ay bu şarkı çıktığında herkes dans ediyordu yavrum. Düğünde çalınca millet bir anda piste koşar.", "traits": ["enerjik", "dikkat çekici", "eğlence seven"] },
+        { "role": "Dansöz", "description": "Adı bile yetiyor. Çalınca ortam bir anda hareketlenir, herkes kendini sahnede sanır.", "traits": ["iddialı", "gösterişli", "eğlenceli"] },
+        { "role": "Mesafe", "description": "Aşk var ama araya mesafe girmiş yavrum. Dinlerken insanın içi burkulur.", "traits": ["duygusal", "gururlu", "melankolik"] },
+        { "role": "Poşet", "description": "İlk duyunca insan bir şaşırır ama sonra diline dolanır. Garip ama unutulmaz.", "traits": ["ilginç", "rahat", "kendine özgü"] },
+        { "role": "Sana Değmez", "description": "Aşk acısı çekmiş ama gururunu bırakmamış tiplerin şarkısı.", "traits": ["gururlu", "kırılmış", "güçlü"] },
+        { "role": "Heyecan", "description": "Aşkın başındaki o kalp çarpıntısı gibi. Dinlerken insanın içi kıpır kıpır olur.", "traits": ["romantik", "enerjik", "duygulu"] },
+        { "role": "Bilsem Ki", "description": "Tam 'keşke bilseydim' dedirten şarkı. Dinlerken insan geçmişi düşünür.", "traits": ["düşünceli", "duygusal", "içe dönük"] },
+        { "role": "Mikrop", "description": "Biraz laf sokmalı bir şarkıdır. Dinlerken insanın aklına birileri gelir.", "traits": ["sivri dilli", "özgüvenli", "alaycı"] },
+        { "role": "Havalı Yarim", "description": "Aşk var ama bir yandan da gösteriş. Havalı bir ilişki gibi.", "traits": ["çekici", "özgüvenli", "dikkat çekici"] },
+        { "role": "Ben Adam Olmam", "description": "Kendi halini bilen ama biraz da umursamaz tiplerin şarkısı.", "traits": ["rahat", "asi", "umursamaz"] }
+      ]
+    },
+    {
+      "id": "tarkan_sarkilari",
+      "category": "Tarkan Şarkıları",
+      "emoji": "⭐",
+      "description": "Megastar Tarkan'ın herkesin diline dolanan, çalınca ortamı hareketlendiren hit şarkıları.",
+      "min_players": 2,
+      "max_players": 10,
+      "roles": [
+        { "role": "Şımarık", "description": "Ay bu var ya hani şu 'öpücük' diye bilinen şarkı. Çalınca herkes bir anda çocuk gibi eğlenir.", "traits": ["eğlenceli", "çapkın", "dikkat çekici"] },
+        { "role": "Kuzu Kuzu", "description": "Bunu duyan herkesin aklına hemen dans gelir. Tam yaz akşamı enerjisi.", "traits": ["enerjik", "romantik", "hareketli"] },
+        { "role": "Dudu", "description": "Biraz gizemli biraz flörtöz. Dinlerken insanın aklına hep birileri gelir.", "traits": ["çekici", "gizemli", "baştan çıkarıcı"] },
+        { "role": "Öp", "description": "Ay bu şarkı tam flört şarkısı. Hafif cilveli, biraz da şımarık.", "traits": ["cilveli", "neşeli", "kendine güvenen"] },
+        { "role": "Yolla", "description": "Biraz kırgın ama güçlü bir şarkı. 'Yolla gitsin' diyenlerin marşı gibi.", "traits": ["gururlu", "güçlü", "mesafeli"] },
+        { "role": "Hüp", "description": "Ay bu var ya tam hareketli şarkı. Çalınca insan yerinde duramaz.", "traits": ["enerjik", "eğlenceli", "coşkulu"] },
+        { "role": "Ölürüm Sana", "description": "Aşkın en dramatik hali yavrum. İnsan dinlerken 'bu kadar da olmaz' der ama yine de sever.", "traits": ["tutkulu", "dramatik", "sadık"] },
+        { "role": "Adımı Kalbine Yaz", "description": "Tam romantik şarkı. İnsan dinlerken büyük büyük aşklar hayal eder.", "traits": ["romantik", "duygulu", "idealist"] },
+        { "role": "Dön Bebeğim", "description": "Ay bu tam barışma şarkısı. İnsan kavga eder ama sonunda yine geri döner.", "traits": ["duygusal", "umutlu", "romantik"] },
+        { "role": "Başına Bela Olurum", "description": "Biraz meydan okuyan bir şarkı. Dinlerken insanın içinden 'ben de yaparım' hissi gelir.", "traits": ["özgüvenli", "asi", "iddialı"] }
+      ]
+    },
+    {
+      "id": "arabesk_klasikleri",
+      "category": "Arabesk Klasikleri",
+      "emoji": "🎙️",
+      "description": "Arabesk müziğin en damar, en içli klasiklerinden seçilmiş şarkılar. Çalınca insanın ya içi sızlar ya da dünyaya biraz sitem eder.",
+      "min_players": 2,
+      "max_players": 10,
+      "roles": [
+        { "role": "Orhan Gencebay – Batsın Bu Dünya", "description": "Ay bu var ya arabeskin en büyük isyan şarkılarından. İnsan dinlerken dünyaya biraz sitem eder.", "traits": ["asi", "dramatik", "güçlü"] },
+        { "role": "Müslüm Gürses – Hangimiz Sevmedik", "description": "Bu şarkıyı duyan herkes bir anda duygulanır yavrum. Aşkın acısını anlatır.", "traits": ["duygusal", "romantik", "nostaljik"] },
+        { "role": "Ferdi Tayfur – Bir Teselli Ver", "description": "Kalbi kırılmış ama hâlâ bir umut bekleyen insanın şarkısı. Gece yarısı dinlenir bu.", "traits": ["kırılgan", "umutlu", "duygusal"] },
+        { "role": "Barış Manço – Dağlar Dağlar", "description": "Sevmiş ama ulaşamamış insanın hikayesi. Dinlerken insanın içi burkulur.", "traits": ["dramatik", "tutkulu", "içten"] },
+        { "role": "İbrahim Tatlıses – İnanmadın Sevdiğime", "description": "Sevmiş ama karşılığını alamamış yavrum. Dinlerken insanın içi sızlar.", "traits": ["kırılmış", "gururlu", "duygusal"] },
+        { "role": "Müslüm Gürses – Unutamadım", "description": "Adı üstünde… sevmiş ama unutamamış. Dinleyen herkes kendinden bir şey bulur.", "traits": ["takıntılı", "duygusal", "melankolik"] },
+        { "role": "Müslüm Gürses – Ümitsiz Aşk", "description": "Tam arabesk dramı. Aşk var ama sonu yok.", "traits": ["karamsar", "tutkulu", "duygusal"] },
+        { "role": "Ferdi Tayfur – Bir Damla Ateş", "description": "Aşkın insanın içine düşen küçük ama yakıcı hali.", "traits": ["tutkulu", "yoğun", "romantik"] },
+        { "role": "Orhan Gencebay – Vazgeç Gönlüm", "description": "Kalp sevmiş ama akıl artık bırak diyor.", "traits": ["kararlı", "kırgın", "güçlü"] },
+        { "role": "İbrahim Tatlıses – Hatıran Yeter", "description": "Aşk bitmiş ama hatıralar kalmış. Dinlerken insanın içi biraz hüzünlenir.", "traits": ["nostaljik", "duygusal", "sakin"] }
+      ]
+    },
+    {
+      "id": "meyhane_sefasi",
+      "category": "Meyhane Sefası",
+      "emoji": "🍻",
+      "description": "Meyhane masasında gecenin ilerleyen saatlerinde ortaya çıkan o tanıdık tipler. Birisi nutuk atar, birisi ağlar, birisi de sonunda taksiye zorla bindirilir.",
+      "min_players": 2,
+      "max_players": 10,
+      "roles": [
+        { "role": "İki Kadehten Sonra Bayılan", "description": "Ay yavrum daha ikinci kadehte yanaklar kızarır, gözler kayar. Sonra bir bakarsın sandalyeye tutunuyor.", "traits": ["dayanıksız", "dramatik", "çabuk sarhoş"] },
+        { "role": "Tüm Gece Kusan", "description": "Yazık… akşam başlar, sabaha kadar tuvaletin yolu ezilir. Herkes bir noktada ona su taşır.", "traits": ["talihsiz", "kontrolsüz", "dayanıksız"] },
+        { "role": "Dansözle Dans Eden", "description": "Müzik başlar başlamaz yerinde duramaz. Dansöz sahneye çıkınca kendini piste atar.", "traits": ["coşkulu", "gösterişçi", "cesur"] },
+        { "role": "Çatal Bıçak Düşüren", "description": "Sarhoşluk ilerledikçe el ayarı kayar. Çatal düşer, bardak devrilir, masa sürekli sallanır.", "traits": ["sakar", "dikkatsiz", "dalgın"] },
+        { "role": "Herkese Nutuk Atan", "description": "İçtikçe filozof olur yavrum. Bir noktadan sonra masada kim varsa hayat dersi dinler.", "traits": ["konuşkan", "bilmiş", "dramatik"] },
+        { "role": "Hesabı Kapatan", "description": "Masada en sakin oturur ama sonunda garsonu çağırıp hesap ister.", "traits": ["cömert", "ağırbaşlı", "lider ruhlu"] },
+        { "role": "Cüzdansız", "description": "Yer içer ama hesap gelince cepler aranır. Sonunda 'yarın yollarım' cümlesi gelir.", "traits": ["unutkan", "rahat", "fırsatçı"] },
+        { "role": "Sürekli Ağlayan", "description": "Bir şarkı çalar, bir hatıra gelir… sonra gözyaşları durmaz. Bütün masa bir noktada onu teselli eder.", "traits": ["duygusal", "hassas", "dramatik"] },
+        { "role": "Herkesle Sarılan", "description": "Sarhoşluk ilerledikçe sevgi artar. Bir bakarsın masadaki herkesi tek tek kucaklıyor.", "traits": ["sevgi dolu", "sosyal", "sıcak"] },
+        { "role": "Taksiye Zorla Bindirilen", "description": "Gece biter ama onun direnişi bitmez. Sonunda iki kişi koluna girer, zorla taksiye bindirilir.", "traits": ["inatçı", "yorgun", "kontrolü kaybetmiş"] }
+      ]
+    },
+    {
+      "id": "altin_gunu_teyzeleri",
+      "category": "Altın Günü Teyzeleri",
+      "emoji": "🧆",
+      "description": "Mahallenin en ciddi toplantısı: Altın günü. Çay demlenir, börek açılır, dedikodular güncellenir.",
+      "min_players": 2,
+      "max_players": 10,
+      "roles": [
+        { "role": "Ev Sahibi Teyze", "description": "Sabahın köründen beri börek açtı, dolma sardı, çayı demledi. Ama biri 'eline sağlık' demeyince içi içini yiyor yavrum.", "traits": ["fedakar", "titiz", "gururlu"] },
+        { "role": "Mahalle Dedikoducusu", "description": "Kim kiminle küsmüş, kim taşınmış, kim borca girmiş… hepsini biliyor. Vallahi mahalle gazetesi gibi.", "traits": ["meraklı", "konuşkan", "bilgi toplayan"] },
+        { "role": "“Diyetteyim” Diyen", "description": "Masaya otururken 'ben hiçbir şey yemem' der. Sonra börekten de alır, sarmadan da, üstüne tatlıyı da götürür. Diyet falan kalmaz.", "traits": ["kararsız", "kendini kandıran", "iştahlı"] },
+        { "role": "Altın Hesap Uzmanı", "description": "Kimin sırası ne zaman, kim ne kadar taktı… hepsini kafadan hesaplar. Deftere bile bakmaz, makine gibi.", "traits": ["hesapçı", "dikkatli", "kontrolcü"] },
+        { "role": "Her Şeyi Eleştiren", "description": "Çay biraz koyu, kek biraz kuru, börek biraz tuzlu… masada ne varsa bir kusur bulur yavrum.", "traits": ["titiz", "eleştirel", "huysuz"] },
+        { "role": "“Torunum da torunum” Teyze", "description": "Konu bir şekilde toruna gelir. Telefon çıkar, fotoğraflar başlar, hikayeler bitmez.", "traits": ["gururlu", "duygusal", "anlatmayı seven"] },
+        { "role": "Gelinine Laf Sokarak Mesaj Veren", "description": "Kendi gelinine kızgındır ama lafı dolandırıp masaya anlatır. Mesaj kimeyse o zaten anlar.", "traits": ["dolaylı konuşan", "kin tutan", "hesaplı"] },
+        { "role": "Sessiz Ama Tehlikeli", "description": "Masada pek konuşmaz, sadece dinler. Ama akşam eve gidince bütün dedikodu başka bir gruba aktarılır.", "traits": ["gözlemci", "sabırlı", "stratejik"] },
+        { "role": "Altını Hep Unutan", "description": "Sıra ona gelince 'ay ben altını evde unuttum' der. Bu lafı her ay duyarız artık.", "traits": ["unutkan", "rahat", "kaçamakçı"] },
+        { "role": "Paketçi Teyze", "description": "Sofra toplanırken çantadan streç film çıkar. 'Çocuklar yer' diyerek börekleri paketler.", "traits": ["pratik", "fırsatçı", "hazırlıklı"] }
+      ]
+    },
+    {
+      "id": "mahalle_dugunu",
+      "category": "Mahalle Düğünü",
+      "emoji": "💒",
+      "description": "Ay yavrum mahallede düğün mü var? Sokak kapatılır, plastik sandalyeler dizilir, davul zurna başlar. Kim oynuyor, kim dedikodu yapıyor, kim yemek peşinde… hepsi ayrı bir alem.",
+      "min_players": 2,
+      "max_players": 10,
+      "roles": [
+        { "role": "Dedikodu Radarı", "description": "Kim ne giymiş, kim kilo almış, kim kiminle gelmiş… daha ilk yarım saatte hepsini çözer.", "traits": ["meraklı", "gözlemci", "konuşkan"] },
+        { "role": "Para Saçan Dayı", "description": "Halayın ortasına girer, cebinden banknot çıkarır. Davulcu onu görünce coşar vallahi.", "traits": ["gösterişçi", "cömert", "coşkulu"] },
+        { "role": "Masa Masa Gezen", "description": "Bir yerde oturamaz yavrum. Üç saatte bütün masalara uğrar, herkesle selamlaşır.", "traits": ["sosyal", "hareketli", "enerjik"] },
+        { "role": "Kadraj Avcısı", "description": "Fotoğrafçı neredeyse o da oradadır. Her karede bir şekilde yüzünü gösterir.", "traits": ["dikkat çekmeyi seven", "sosyal", "fırsatçı"] },
+        { "role": "Pisti Açan Amca", "description": "Daha ilk şarkıda ortaya atlar. Halay onsuz başlamaz zaten.", "traits": ["enerjik", "lider ruhlu", "coşkulu"] },
+        { "role": "Garson Kankası", "description": "Garsonla iki laf eder, biraz sonra masaya ekstra tabak gelir. İşini bilir.", "traits": ["pratik", "sosyal", "kurnaz"] },
+        { "role": "Yemek İçin Gelen", "description": "Kız tarafı mı erkek tarafı mı belli değil ama yemek başlayınca en önde o vardır.", "traits": ["fırsatçı", "rahat", "iştahlı"] },
+        { "role": "Takı Defteri Müdürü", "description": "Mikrofona yakın oturur, kim ne taktı tek tek yazılır. Hiçbir şey gözünden kaçmaz.", "traits": ["dikkatli", "düzenli", "kontrolcü"] },
+        { "role": "Çanta Nöbetçisi", "description": "Halaya girmez, masada oturur. Beş çanta, üç ceket ona emanet.", "traits": ["güvenilir", "sakin", "sorumluluk sahibi"] },
+        { "role": "“Uzaktan” Akraba", "description": "Kimse tam hatırlamaz ama o mutlaka bir yerden akraba olduğunu iddia eder.", "traits": ["girişken", "rahat", "kendinden emin"] }
+      ]
     }
   ]
 }
